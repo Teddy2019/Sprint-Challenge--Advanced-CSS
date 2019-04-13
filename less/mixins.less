@@ -1,1 +1,20 @@
 // Mixins Here
+
+.nav() {
+    background-color: @wild-sand;
+    border: @sea-shell;
+}
+
+.anc() {
+    color: @river-bend;
+    font-size: 2rem;
+}
+
+.button-mixin(@radius, @width, @height) {
+    border-radius: @radius;
+    width: @width;
+    height: @height;
+    background-color:  @btn-bg-color;
+    color: white;
+    text-align: center;
+}
