@@ -170,7 +170,7 @@ p {
   display: flex;
   flex-direction: column;
   padding: 2%;
-  align-content: center;
+  align-items: center;
   background-color: #F6F6F6;
   border: #F1F1F1;
 }
@@ -182,13 +182,11 @@ p {
   }
 }
 .top-navigation .logo {
-  margin-left: 40%;
   font-size: 3.5rem;
   padding-bottom: 1%;
 }
 @media (max-width: 500px) {
   .top-navigation .logo {
-    margin-left: 12%;
     padding-bottom: 2%;
   }
 }
@@ -196,12 +194,10 @@ p {
   width: 30%;
   display: flex;
   justify-content: space-between;
-  margin-left: 35%;
 }
 @media (max-width: 500px) {
   .top-navigation nav {
     width: 90%;
-    margin-left: 3%;
   }
 }
 .top-navigation nav a {
@@ -313,6 +309,7 @@ footer {
   color: white;
   text-align: center;
   font-size: 2rem;
+  padding-top: 0.6rem;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -322,6 +319,7 @@ footer {
     background-color: #22283A;
     color: white;
     text-align: center;
+    padding-top: 1rem;
   }
 }
 .home .walk .walk-text .btn:hover {
